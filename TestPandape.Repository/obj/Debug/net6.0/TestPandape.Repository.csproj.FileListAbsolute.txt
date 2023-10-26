@@ -1,0 +1,17 @@
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\bin\Debug\net6.0\TestPandape.Repository.deps.json
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\bin\Debug\net6.0\TestPandape.Repository.dll
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\bin\Debug\net6.0\TestPandape.Repository.pdb
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\obj\Debug\net6.0\TestPandape.Repository.csproj.AssemblyReference.cache
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\obj\Debug\net6.0\TestPandape.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\obj\Debug\net6.0\TestPandape.Repository.AssemblyInfoInputs.cache
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\obj\Debug\net6.0\TestPandape.Repository.AssemblyInfo.cs
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\obj\Debug\net6.0\TestPandape.Repository.csproj.CoreCompileInputs.cache
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\obj\Debug\net6.0\TestPandape.Repository.dll
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\obj\Debug\net6.0\refint\TestPandape.Repository.dll
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\obj\Debug\net6.0\TestPandape.Repository.pdb
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\obj\Debug\net6.0\ref\TestPandape.Repository.dll
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\bin\Debug\net6.0\TestPandape.Entity.dll
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\bin\Debug\net6.0\TestPandape.Entity.pdb
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\obj\Debug\net6.0\TestPandape.Repository.csproj.CopyComplete
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\bin\Debug\net6.0\TestPandape.Repository.runtimeconfig.json
+D:\PRUEBA PANDAPE\PROYECTO\TestPandape.Repository\obj\Debug\net6.0\TestPandape.Repository.genruntimeconfig.cache
