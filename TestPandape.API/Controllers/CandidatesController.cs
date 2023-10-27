@@ -27,15 +27,6 @@ namespace TestPandape.API.Controllers
             try
             {
                 return Ok(await _candidateBl.CreateCandidateService(request));
-                //if (result.MessageResponse.success != null)
-                //{
-                //    if ((bool)result.MessageResponse.success)
-                //        return Ok(result);
-                //    else
-                //        return BadRequest(result);
-                //}
-                //else
-                //    return BadRequest(result);
             }
             catch (Exception ex)
             {

@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPandape.API", "TestPandape.API.csproj", "{06BA41D1-2CA2-4D38-8ECD-7F6268D3157A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPandape.API", "TestPandape.API.csproj", "{06BA41D1-2CA2-4D38-8ECD-7F6268D3157A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPandape.Business", "..\TestPandape.Business\TestPandape.Business.csproj", "{590DDD93-1E33-4221-81F5-FF5F0B83DA41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPandape.Business", "..\TestPandape.Business\TestPandape.Business.csproj", "{590DDD93-1E33-4221-81F5-FF5F0B83DA41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPandape.Entity", "..\TestPandape.Entity\TestPandape.Entity.csproj", "{245F2BDD-CA6A-4A95-B72F-E1039A339232}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPandape.Entity", "..\TestPandape.Entity\TestPandape.Entity.csproj", "{245F2BDD-CA6A-4A95-B72F-E1039A339232}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPandape.Repository", "..\TestPandape.Repository\TestPandape.Repository.csproj", "{FEB270D9-3B9F-4564-847E-0F05313D4FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPandape.Repository", "..\TestPandape.Repository\TestPandape.Repository.csproj", "{FEB270D9-3B9F-4564-847E-0F05313D4FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPandape.Lib", "..\TestPandape.Utils\TestPandape.Lib.csproj", "{EBA9A9EF-C606-4BA1-91F0-F175A58CAF03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPandape.Lib", "..\TestPandape.Utils\TestPandape.Lib.csproj", "{EBA9A9EF-C606-4BA1-91F0-F175A58CAF03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPandape.UnitTest", "..\TestPandape.UnitTest\TestPandape.UnitTest.csproj", "{8DF6F335-C248-4952-A37E-F8FF4449B099}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EBA9A9EF-C606-4BA1-91F0-F175A58CAF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA9A9EF-C606-4BA1-91F0-F175A58CAF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA9A9EF-C606-4BA1-91F0-F175A58CAF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF6F335-C248-4952-A37E-F8FF4449B099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF6F335-C248-4952-A37E-F8FF4449B099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF6F335-C248-4952-A37E-F8FF4449B099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF6F335-C248-4952-A37E-F8FF4449B099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

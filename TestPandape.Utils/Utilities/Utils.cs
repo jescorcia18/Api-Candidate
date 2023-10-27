@@ -97,7 +97,7 @@ namespace TestPandape.Lib.Utilities
                     Email = obj.Email,
                     InsertDate = obj.InsertDate,
                     ModifyDate = obj.ModifyDate,
-                    Experiences = obj.Experiences.Select(e => new ExperienceReadRequest
+                    Experiences =obj.Experiences !=null ? obj.Experiences.Select(e => new ExperienceReadRequest
                     {
                         IdCandidateExperience = e.IdCandidateExperience,
                         IdCandidate = e.IdCandidate,
@@ -109,7 +109,7 @@ namespace TestPandape.Lib.Utilities
                         EndDate = e.EndDate,
                         InsertDate = e.InsertDate,
                         ModifyDate = e.ModifyDate
-                    }).ToList()
+                    }).ToList() : null
                 });
             }
             return await Task.FromResult(model);

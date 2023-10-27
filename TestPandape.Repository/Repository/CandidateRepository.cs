@@ -113,9 +113,15 @@ namespace TestPandape.Repository.Repository
         #region Private Methods
         private async Task<IQueryable<CandidateDataModel>> GetQuery(CandidateRequest searchRequest, bool validateEmail = false)
         {
+            //var query = await Task.Run(() => from Candidate in _context.Candidates
+            //                                 join Experience in _context.Experiences
+            //                                    on Candidate.IdCandidate equals Experience.IdCandidate
+            //                                 select Candidate);
             var query = await Task.Run(() => from Candidate in _context.Candidates
                                              join Experience in _context.Experiences
                                                 on Candidate.IdCandidate equals Experience.IdCandidate
+                                                into CandExpGroup
+                                                from grup in CandExpGroup.DefaultIfEmpty()
                                              select Candidate);
 
             if (query.ToList().Count() > 0)

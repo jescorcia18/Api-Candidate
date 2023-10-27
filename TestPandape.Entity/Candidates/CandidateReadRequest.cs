@@ -17,6 +17,6 @@ namespace TestPandape.Entity.Candidates
         public string Email { get; set; } = string.Empty;
         public DateTime InsertDate { get; set; }
         public DateTime? ModifyDate { get; set; }
-        public ICollection<ExperienceReadRequest> Experiences{ get; set; }
+        public ICollection<ExperienceReadRequest>? Experiences{ get; set; }
     }
 }
